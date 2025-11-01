@@ -1,0 +1,424 @@
+
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/x-icon" href="/asset/sm.ico">
+  <title>CEK AREA XL AKRAB | Circecuanmv</title> 
+  <style>
+	@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+	
+        body {
+            font-family: Plus Jakarta Sans, Arial, sans-serif;
+        }
+        .search-container {
+            /* margin-bottom: 20px; */
+			/* margin-top: 30px; */
+			background-color:#1565c0;
+			padding:20px;
+        }
+        input[type="text"] {
+            width: 80%;
+			height: 50px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: *10px;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+            box-sizing: border-box;
+			border-radius: 5px;
+			border: 2px solid #1565c0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #1565c0;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #1565c0;
+			text-align: center;
+			color:#FFFFFF;
+        }
+		.highlight {
+			background-color: #1565c0;
+			color:white;
+			font-weight:bold;
+		}
+		table td:nth-child(3) {text-align:center;}
+		
+		.judul{
+			text-align: center;
+			color:#ffffff;
+		}
+		h2 {
+			text-align: center;
+			color:#1565c0;
+		}
+    </style> 
+ </head> 
+ <body> 
+  <div class="search-container"> 
+   <h1 class="judul"> CEK AREA PAKET XL AKRAB </h1> 
+   <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Tuliskan Nama Provinsi ataupun Kabupaten/Kota di sini"> 
+  </div> 
+  <table id="dataTable"> 
+   <thead> 
+    <tr> 
+     <th>Provinsi</th> 
+     <th>Kota/Kabupaten</th> 
+     <th>Area</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td data-savecontent="Banten">Banten</td> 
+     <td data-savecontent="Kota Tangerang Selatan, Kota Tangerang, Kab. Tangerang, Kab. Pandeglang, Kab. Lebak, Kab. Serang, Kota Serang, Kota Cilegon">Kota Tangerang Selatan, Kota Tangerang, Kab. Tangerang, Kab. Pandeglang, Kab. Lebak, Kab. Serang, Kota Serang, Kota Cilegon</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="DI Yogyakarta">DI Yogyakarta</td> 
+     <td data-savecontent="Kab. Kulon Progo, Kota Yogyakarta, Kab. Sleman, Kab. Bantul, Kab. Gunungkidul">Kab. Kulon Progo, Kota Yogyakarta, Kab. Sleman, Kab. Bantul, Kab. Gunungkidul</td> 
+     <td data-savecontent="1">1</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="DKI Jakarta">DKI Jakarta</td> 
+     <td data-savecontent="Kota Jakarta Pusat, Kota Jakarta Selatan, Kota Jakarta Barat, Kota Jakarta Timur, Kota Jakarta Utara">Kota Jakarta Pusat, Kota Jakarta Selatan, Kota Jakarta Barat, Kota Jakarta Timur, Kota Jakarta Utara</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="DKI Jakarta">DKI Jakarta</td> 
+     <td data-savecontent="Kab. Kepulauan Seribu">Kab. Kepulauan Seribu</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Barat">Jawa Barat</td> 
+     <td data-savecontent="Kab. Bandung, Kab. Kuningan, Kab. Purwakarta, Kota Bandung">Kab. Bandung, Kab. Kuningan, Kab. Purwakarta, Kota Bandung</td> 
+     <td data-savecontent="1">1</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Barat">Jawa Barat</td> 
+     <td data-savecontent="Kab. Bandung Barat, Kota Cimahi, Kab. Cirebon, Kota Cirebon, Kab. Indramayu, Kab. Subang">Kab. Bandung Barat, Kota Cimahi, Kab. Cirebon, Kota Cirebon, Kab. Indramayu, Kab. Subang</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Barat">Jawa Barat</td> 
+     <td data-savecontent="Kab. Bogor, Kota Bogor, Kota Depok, Kota Bekasi, Kota Banjar, Kab. Ciamis, Kota Tasikmalaya, Kab. Majalengka, Kab. Sumedang, Kab. Bekasi, Kab. Tasikmalaya, Kab. Garut">Kab. Bogor, Kota Bogor, Kota Depok, Kota Bekasi, Kota Banjar, Kab. Ciamis, Kota Tasikmalaya, Kab. Majalengka, Kab. Sumedang, Kab. Bekasi, Kab. Tasikmalaya, Kab. Garut</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Barat">Jawa Barat</td> 
+     <td data-savecontent="Kab. Cianjur, Kab. Pangandaran, Kab. Karawang, Kota Sukabumi, Kab. Sukabumi">Kab. Cianjur, Kab. Pangandaran, Kab. Karawang, Kota Sukabumi, Kab. Sukabumi</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Tengah">Jawa Tengah</td> 
+     <td data-savecontent="Kab. Tegal, Kota Surakarta, Kota Tegal, Kab. Brebes, Kab. Kebumen, Kab. Pemalang, Kota Semarang">Kab. Tegal, Kota Surakarta, Kota Tegal, Kab. Brebes, Kab. Kebumen, Kab. Pemalang, Kota Semarang</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Tengah">Jawa Tengah</td> 
+     <td data-savecontent="Kab. Boyolali, Kota Salatiga, Kab. Semarang, Kab. Cilacap, Kab. Grobogan, Kab. Kendal, Kab. Rembang">Kab. Boyolali, Kota Salatiga, Kab. Semarang, Kab. Cilacap, Kab. Grobogan, Kab. Kendal, Kab. Rembang</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Tengah">Jawa Tengah</td> 
+     <td data-savecontent="Kota Pekalongan, Kab. Pekalongan, Kab. Batang, Kab. Purbalingga, Kab. Kudus, Kab. Sukoharjo, Kab. Klaten, Kota Magelang, Kab. Banyumas, Kab. Banyumas, Kab. Magelang, Kab. Temanggung, Kab. Sragen, Kab. Banjarnegara, Kab. Karanganyar, Kab. Wonosobo, Kab. Jepara, Kab. Demak, Kab. Purworejo, Kab. Blora, Kab. Wonogiri, Kab. Pati">Kota Pekalongan, Kab. Pekalongan, Kab. Batang, Kab. Purbalingga, Kab. Kudus, Kab. Sukoharjo, Kab. Klaten, Kota Magelang, Kab. Banyumas, Kab. Banyumas, Kab. Magelang, Kab. Temanggung, Kab. Sragen, Kab. Banjarnegara, Kab. Karanganyar, Kab. Wonosobo, Kab. Jepara, Kab. Demak, Kab. Purworejo, Kab. Blora, Kab. Wonogiri, Kab. Pati</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Timur">Jawa Timur</td> 
+     <td data-savecontent="Kota Probolinggo, Kab. Bangkalan, Kab. Sidoarjo, Kab. Banyuwangi, Kota Surabaya, Kab. Sampang, Kab. Pamekasan, Kab. Sumenep, Kab. Pacitan">Kota Probolinggo, Kab. Bangkalan, Kab. Sidoarjo, Kab. Banyuwangi, Kota Surabaya, Kab. Sampang, Kab. Pamekasan, Kab. Sumenep, Kab. Pacitan</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Timur">Jawa Timur</td> 
+     <td data-savecontent="Kab. Lumajang, Kab. Probolinggo">Kab. Lumajang, Kab. Probolinggo</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jawa Timur">Jawa Timur</td> 
+     <td data-savecontent="Kab. Jombang, Kota Blitar, Kab. Blitar, Kota Kediri, Kab. Lamongan, Kab. Kediri, Kab. Ngawi, Kab. Mojokerto, Kota Mojokerto, Kab. Magetan, Kab. Gresik, Kab. Tulungagung, Kab. Nganjuk, Kab. Pasuruan, Kota Pasuruan, Kab. Bojonegoro, Kab. Madiun, Kab. Bondowoso, Kab. Tuban, Kota Madiun, Kab. Situbondo, Kab. Jember, Kota Malang, Kab. Malang, Kab. Ponorogo, Kota Batu, Kab. Trenggalek">Kab. Jombang, Kota Blitar, Kab. Blitar, Kota Kediri, Kab. Lamongan, Kab. Kediri, Kab. Ngawi, Kab. Mojokerto, Kota Mojokerto, Kab. Magetan, Kab. Gresik, Kab. Tulungagung, Kab. Nganjuk, Kab. Pasuruan, Kota Pasuruan, Kab. Bojonegoro, Kab. Madiun, Kab. Bondowoso, Kab. Tuban, Kota Madiun, Kab. Situbondo, Kab. Jember, Kota Malang, Kab. Malang, Kab. Ponorogo, Kota Batu, Kab. Trenggalek</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Bengkulu">Bengkulu</td> 
+     <td data-savecontent="Kab. Seluma">Kab. Seluma</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Bengkulu">Bengkulu</td> 
+     <td data-savecontent="Kab. Bengkulu Selatan, Kab. Kaur, Kab. Lebong, Kab. Rejang Lebong, Kab. Bengkulu Tengah, Kota Bengkulu, Kab. Bengkulu Utara, Kab. Kepahiang, Kab. Muko Muko">Kab. Bengkulu Selatan, Kab. Kaur, Kab. Lebong, Kab. Rejang Lebong, Kab. Bengkulu Tengah, Kota Bengkulu, Kab. Bengkulu Utara, Kab. Kepahiang, Kab. Muko Muko</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jambi">Jambi</td> 
+     <td data-savecontent="Kab. Batanghari, Kota Jambi, Kab. Tanjung Jabung Barat, Kab. Muaro Jambi, Kab. Sarolangun">Kab. Batanghari, Kota Jambi, Kab. Tanjung Jabung Barat, Kab. Muaro Jambi, Kab. Sarolangun</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Jambi">Jambi</td> 
+     <td data-savecontent="Kab. Tanjung Jabung Timur, Kab. Kerinci, Kab. Bungo, Kab. Tebo, Kab. Merangin, Kota Sungai Penuh">Kab. Tanjung Jabung Timur, Kab. Kerinci, Kab. Bungo, Kab. Tebo, Kab. Merangin, Kota Sungai Penuh</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</td> 
+     <td data-savecontent="Kab. Bangka Selatan, Kota Pangkal Pinang, Kab. Belitung, Kab. Belitung Timur">Kab. Bangka Selatan, Kota Pangkal Pinang, Kab. Belitung, Kab. Belitung Timur</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</td> 
+     <td data-savecontent="Kab. Bangka, Kab. Bangka Tengah, Kab. Bangka Barat">Kab. Bangka, Kab. Bangka Tengah, Kab. Bangka Barat</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kepulauan Riau">Kepulauan Riau</td> 
+     <td data-savecontent="Kota Batam">Kota Batam</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kepulauan Riau">Kepulauan Riau</td> 
+     <td data-savecontent="Kab. Karimun, Kab. Bintan, Kota Tanjung Pinang">Kab. Karimun, Kab. Bintan, Kota Tanjung Pinang</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kepulauan Riau">Kepulauan Riau</td> 
+     <td data-savecontent="Kab. Lingga, Kab. Kepulauan Anambas, Kab. Natuna">Kab. Lingga, Kab. Kepulauan Anambas, Kab. Natuna</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Lampung">Lampung</td> 
+     <td data-savecontent="Kab. Lampung Tengah, Kab. Pringsewu, Kota Metro, Kab. Pesawaran, Kab. Lampung Selatan, Kota Bandar Lampung">Kab. Lampung Tengah, Kab. Pringsewu, Kota Metro, Kab. Pesawaran, Kab. Lampung Selatan, Kota Bandar Lampung</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Lampung">Lampung</td> 
+     <td data-savecontent="Kab. Lampung Barat, Kab. Lampung Timur, Kab. Tulang Bawang Barat, Kab. Way Kanan, Kab. Tulang Bawang, Kab. Tanggamus, Kab. Pesisir Barat, Kab. Lampung Utara, Kab. Mesuji">Kab. Lampung Barat, Kab. Lampung Timur, Kab. Tulang Bawang Barat, Kab. Way Kanan, Kab. Tulang Bawang, Kab. Tanggamus, Kab. Pesisir Barat, Kab. Lampung Utara, Kab. Mesuji</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Nanggroe Aceh Darussalam">Nanggroe Aceh Darussalam</td> 
+     <td data-savecontent="Kab. Aceh Barat Daya, Kab. Aceh Besar, Kota Sabang, Kab. Gayo Lues">Kab. Aceh Barat Daya, Kab. Aceh Besar, Kota Sabang, Kab. Gayo Lues</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Nanggroe Aceh Darussalam">Nanggroe Aceh Darussalam</td> 
+     <td data-savecontent="Kab. Aceh Jaya, Kab. Aceh Selatan, Kab. Aceh Tenggara, Kab. Nagan Raya, Kota Banda Aceh">Kab. Aceh Jaya, Kab. Aceh Selatan, Kab. Aceh Tenggara, Kab. Nagan Raya, Kota Banda Aceh</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Nanggroe Aceh Darussalam">Nanggroe Aceh Darussalam</td> 
+     <td data-savecontent="Kab. Aceh Barat, Kab. Aceh Singkil, Kab. Aceh Tamiang, Kab. Aceh Tengah, Kota Subulussalam, Kab. Bener Meriah, Kab. Aceh Utara, Kota Lhokseumawe, Kab. Pidie, Kab. Aceh Timur, Kab. Simeulue, Kota Langsa, Kab. Bireuen, Kab. Pidie Jaya">Kab. Aceh Barat, Kab. Aceh Singkil, Kab. Aceh Tamiang, Kab. Aceh Tengah, Kota Subulussalam, Kab. Bener Meriah, Kab. Aceh Utara, Kota Lhokseumawe, Kab. Pidie, Kab. Aceh Timur, Kab. Simeulue, Kota Langsa, Kab. Bireuen, Kab. Pidie Jaya</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Riau">Riau</td> 
+     <td data-savecontent="Kota Pekanbaru">Kota Pekanbaru</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Riau">Riau</td> 
+     <td data-savecontent="Kab. Kuantan Singingi, Kab. Pelalawan, Kab. Kampar, Kab. Siak, Kota Dumai, Kab. Rokan Hilir, Kab. Indragiri Hulu, Kab. Kepulauan Meranti, Kab. Bengkalis">Kab. Kuantan Singingi, Kab. Pelalawan, Kab. Kampar, Kab. Siak, Kota Dumai, Kab. Rokan Hilir, Kab. Indragiri Hulu, Kab. Kepulauan Meranti, Kab. Bengkalis</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Riau">Riau</td> 
+     <td data-savecontent="Kab. Rokan Hulu, Kab. Indragiri Hilir">Kab. Rokan Hulu, Kab. Indragiri Hilir</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Barat">Sumatera Barat</td> 
+     <td data-savecontent="Kab. Kepulauan Mentawai">Kab. Kepulauan Mentawai</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Barat">Sumatera Barat</td> 
+     <td data-savecontent="Kota Payakumbuh, Kota Padang Panjang, Kab. Sijunjung, Kab. Padang Pariaman, Kota Padang, Kab. Solok Selatan">Kota Payakumbuh, Kota Padang Panjang, Kab. Sijunjung, Kab. Padang Pariaman, Kota Padang, Kab. Solok Selatan</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Barat">Sumatera Barat</td> 
+     <td data-savecontent="Kab. Pasaman Barat, Kab. Pasaman, Kab. Lima Puluh Kota, Kab. Tanah Datar, Kab. Dharmasraya, Kota Solok, Kab. Agam, Kab. Solok, Kota Bukittinggi, Kota Pariaman, Kota Sawahlunto, Kab. Pesisir Selatan">Kab. Pasaman Barat, Kab. Pasaman, Kab. Lima Puluh Kota, Kab. Tanah Datar, Kab. Dharmasraya, Kota Solok, Kab. Agam, Kab. Solok, Kota Bukittinggi, Kota Pariaman, Kota Sawahlunto, Kab. Pesisir Selatan</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Selatan">Sumatera Selatan</td> 
+     <td data-savecontent="Kab. Ogan Komering Ilir, Kab. Penukal Abab Lematang Ilir, Kab. Banyuasin, Kota Palembang, Kab. Ogan Ilir">Kab. Ogan Komering Ilir, Kab. Penukal Abab Lematang Ilir, Kab. Banyuasin, Kota Palembang, Kab. Ogan Ilir</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Selatan">Sumatera Selatan</td> 
+     <td data-savecontent="Kab. Ogan Komering Ulu Timur, Kab. Ogan Komering Ulu Selatan, Kab. Ogan Komering Ulu, Kab. Musi Rawas, Kab. Musi Rawas Utara, Kab. Empat Lawang, Kota Pagar Alam, Kota Lubuk Linggau, Kab. Musi Banyuasin, Kab. Muara Enim, Kab. Lahat, Kota Prabumulih">Kab. Ogan Komering Ulu Timur, Kab. Ogan Komering Ulu Selatan, Kab. Ogan Komering Ulu, Kab. Musi Rawas, Kab. Musi Rawas Utara, Kab. Empat Lawang, Kota Pagar Alam, Kota Lubuk Linggau, Kab. Musi Banyuasin, Kab. Muara Enim, Kab. Lahat, Kota Prabumulih</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Utara">Sumatera Utara</td> 
+     <td data-savecontent="Kab. Karo, Kota Medan, Kab. Dairi">Kab. Karo, Kota Medan, Kab. Dairi</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Utara">Sumatera Utara</td> 
+     <td data-savecontent="Kota Binjai, Kota Tebing Tinggi, Kab. Serdang Bedagai, Kab. Langkat, Kab. Deli Serdang, Kab. Batu Bara, Kota Tanjung Balai, Kab. Asahan, Kota Gunungsitoli, Kab. Nias Barat, Kab. Nias Selatan, Kab. Nias Utara">Kota Binjai, Kota Tebing Tinggi, Kab. Serdang Bedagai, Kab. Langkat, Kab. Deli Serdang, Kab. Batu Bara, Kota Tanjung Balai, Kab. Asahan, Kota Gunungsitoli, Kab. Nias Barat, Kab. Nias Selatan, Kab. Nias Utara</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sumatera Utara">Sumatera Utara</td> 
+     <td data-savecontent="Kab. Pakpak Bharat, Kab. Mandailing Natal, Kab. Padang Lawas, Kab. Labuhanbatu Utara, Kota Padangsidimpuan, Kab. Tapanuli Selatan, Kab. Labuhanbatu Selatan, Kab. Labuhanbatu, Kab. Tapanuli Utara, Kab. Padang Lawas Utara, Kab. Humbang Hasundutan, Kab. Simalungun, Kab. Toba Samosir, Kota Pematangsiantar, Kab. Tapanuli Tengah, Kab. Samosir, Kota Sibolga, Kab. Nias">Kab. Pakpak Bharat, Kab. Mandailing Natal, Kab. Padang Lawas, Kab. Labuhanbatu Utara, Kota Padangsidimpuan, Kab. Tapanuli Selatan, Kab. Labuhanbatu Selatan, Kab. Labuhanbatu, Kab. Tapanuli Utara, Kab. Padang Lawas Utara, Kab. Humbang Hasundutan, Kab. Simalungun, Kab. Toba Samosir, Kota Pematangsiantar, Kab. Tapanuli Tengah, Kab. Samosir, Kota Sibolga, Kab. Nias</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kalimantan Barat">Kalimantan Barat</td> 
+     <td data-savecontent="Kab. Sekadau, Kab. Kapuas Hulu, Kab. Sintang, Kab. Bengkayang, Kab. Melawi, Kab. Sambas, Kab. Sanggau, Kab. Kubu Raya, Kota Pontianak, Kab. Kayong Utara, Kab. Landak, Kab. Mempawah, Kota Singkawang, Kab. Ketapang">Kab. Sekadau, Kab. Kapuas Hulu, Kab. Sintang, Kab. Bengkayang, Kab. Melawi, Kab. Sambas, Kab. Sanggau, Kab. Kubu Raya, Kota Pontianak, Kab. Kayong Utara, Kab. Landak, Kab. Mempawah, Kota Singkawang, Kab. Ketapang</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kalimantan Selatan">Kalimantan Selatan</td> 
+     <td data-savecontent="Kab. Hulu Sungai Tengah, Kab. Tapin, Kab. Hulu Sungai Utara, Kab. Tabalong, Kota Banjarmasin, Kab. Banjar, Kab. Tanah Bumbu, Kota Banjarbaru, Kab. Hulu Sungai Selatan">Kab. Hulu Sungai Tengah, Kab. Tapin, Kab. Hulu Sungai Utara, Kab. Tabalong, Kota Banjarmasin, Kab. Banjar, Kab. Tanah Bumbu, Kota Banjarbaru, Kab. Hulu Sungai Selatan</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kalimantan Selatan">Kalimantan Selatan</td> 
+     <td data-savecontent="Kab. Balangan, Kab. Barito Kuala, Kab. Tanah Laut, Kab. Kotabaru">Kab. Balangan, Kab. Barito Kuala, Kab. Tanah Laut, Kab. Kotabaru</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kalimantan Tengah">Kalimantan Tengah</td> 
+     <td data-savecontent="Kab. Kapuas, Kab. Pulang Pisau, Kota Palangkaraya">Kab. Kapuas, Kab. Pulang Pisau, Kota Palangkaraya</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kalimantan Tengah">Kalimantan Tengah</td> 
+     <td data-savecontent="Kab. Seruyan, Kab. Kotawaringin Barat, Kab. Katingan, Kab. Kotawaringin Timur, Kab. Sukamara, Kab. Lamandau, Kab. Murung Raya, Kab. Barito Timur, Kab. Barito Utara, Kab. Barito Selatan, Kab. Gunung Mas">Kab. Seruyan, Kab. Kotawaringin Barat, Kab. Katingan, Kab. Kotawaringin Timur, Kab. Sukamara, Kab. Lamandau, Kab. Murung Raya, Kab. Barito Timur, Kab. Barito Utara, Kab. Barito Selatan, Kab. Gunung Mas</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kalimantan Timur">Kalimantan Timur</td> 
+     <td data-savecontent="Kab. Penajam Paser Utara, Kota Balikpapan, Kab. Paser, Kab. Kutai Kartanegara, Kota Samarinda, Kota Bontang, Kab. Berau, Kab. Kutai Timur, Kab. Kutai Barat, Kab. Mahakam Ulu">Kab. Penajam Paser Utara, Kota Balikpapan, Kab. Paser, Kab. Kutai Kartanegara, Kota Samarinda, Kota Bontang, Kab. Berau, Kab. Kutai Timur, Kab. Kutai Barat, Kab. Mahakam Ulu</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Kalimantan Utara">Kalimantan Utara</td> 
+     <td data-savecontent="Kab. Tana Tidung, Kab. Malinau, Kab. Bulungan, Kota Tarakan, Kab. Nunukan">Kab. Tana Tidung, Kab. Malinau, Kab. Bulungan, Kota Tarakan, Kab. Nunukan</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Gorontalo">Gorontalo</td> 
+     <td data-savecontent="Kab. Pahuwato, Kab. Boalemo, Kab. Gorontalo, Kota Gorontalo, Kab. Gorontalo Utara, Kab. Bone Bolango">Kab. Pahuwato, Kab. Boalemo, Kab. Gorontalo, Kota Gorontalo, Kab. Gorontalo Utara, Kab. Bone Bolango</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Barat">Sulawesi Barat</td> 
+     <td data-savecontent="Kab. Mamuju Tengah">Kab. Mamuju Tengah</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Barat">Sulawesi Barat</td> 
+     <td data-savecontent="Kab. Majene, Kab. Polewali Mandar, Kab. Mamuju Utara">Kab. Majene, Kab. Polewali Mandar, Kab. Mamuju Utara</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Barat">Sulawesi Barat</td> 
+     <td data-savecontent="Kab. Mamuju, Kab. Mamasa">Kab. Mamuju, Kab. Mamasa</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Selatan">Sulawesi Selatan</td> 
+     <td data-savecontent="Kab. Barru, Kota Pare Pare, Kab. Pinrang">Kab. Barru, Kota Pare Pare, Kab. Pinrang</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Selatan">Sulawesi Selatan</td> 
+     <td data-savecontent="Kab. Sinjai, Kab. Enrekang, Kab. Sidenreng Rappang, Kab. Luwu Timur, Kab. Soppeng, Kab. Tana Toraja">Kab. Sinjai, Kab. Enrekang, Kab. Sidenreng Rappang, Kab. Luwu Timur, Kab. Soppeng, Kab. Tana Toraja</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Selatan">Sulawesi Selatan</td> 
+     <td data-savecontent="Kab. Kepulauan Selayar, Kab. Takalar, Kab. Jeneponto, Kab. Bulukumba, Kab. Pangkajene Kepulauan, Kota Makassar, Kab. Gowa, Kab. Maros, Kab. Bone, Kab. Wajo, Kab. Luwu, Kab. Luwu Utara, Kota Palopo, Kab. Toraja Utara">Kab. Kepulauan Selayar, Kab. Takalar, Kab. Jeneponto, Kab. Bulukumba, Kab. Pangkajene Kepulauan, Kota Makassar, Kab. Gowa, Kab. Maros, Kab. Bone, Kab. Wajo, Kab. Luwu, Kab. Luwu Utara, Kota Palopo, Kab. Toraja Utara</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Tengah">Sulawesi Tengah</td> 
+     <td data-savecontent="Kab. Banggai Kepulauan, Kab. Banggai Laut, Kota Palu, Kab. Toli Toli, Kab. Tojo Una Una, Kab. Morowali, Kab. Morowali Utara">Kab. Banggai Kepulauan, Kab. Banggai Laut, Kota Palu, Kab. Toli Toli, Kab. Tojo Una Una, Kab. Morowali, Kab. Morowali Utara</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Tengah">Sulawesi Tengah</td> 
+     <td data-savecontent="Kab. Banggai, Kab. Parigi Moutong, Kab. Donggala, Kab. Sigi, Kab. Poso, Kab. Buol">Kab. Banggai, Kab. Parigi Moutong, Kab. Donggala, Kab. Sigi, Kab. Poso, Kab. Buol</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Tenggara">Sulawesi Tenggara</td> 
+     <td data-savecontent="Kab. Konawe Kepulauan, Kab. Konawe Utara, Kab. Buton Utara, Kab. Wakatobi">Kab. Konawe Kepulauan, Kab. Konawe Utara, Kab. Buton Utara, Kab. Wakatobi</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Tenggara">Sulawesi Tenggara</td> 
+     <td data-savecontent="Kota Bau Bau, Kab. Muna, Kab. Buton Selatan, Kab. Buton Tengah, Kab. Muna Barat">Kota Bau Bau, Kab. Muna, Kab. Buton Selatan, Kab. Buton Tengah, Kab. Muna Barat</td> 
+     <td data-savecontent="3">3</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Tenggara">Sulawesi Tenggara</td> 
+     <td data-savecontent="Kab. Kolaka, Kab. Kolaka Utara, Kab. Konawe, Kab. Konawe Selatan, Kota Kendari, Kab. Kolaka Timur, Kab. Buton, Kab. Bombana">Kab. Kolaka, Kab. Kolaka Utara, Kab. Konawe, Kab. Konawe Selatan, Kota Kendari, Kab. Kolaka Timur, Kab. Buton, Kab. Bombana</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Sulawesi Utara">Sulawesi Utara</td> 
+     <td data-savecontent="Kab. Bolaang Mongondow, Kab. Bolaang Mongondow Selatan, Kota Kotamobagu, Kab. Minahasa Selatan, Kab. Bolaang Mongondow Timur, Kab. Minahasa Tenggara, Kab. Bolaang Mongondow Utara, Kota Tomohon, Kab. Minahasa, Kota Manado, Kab. Minahasa Utara, Kota Bitung, Kab. Kepulauan Sangihe, Kab. Kepulauan Talaud, Kab. Siau Tagulandang Biaro">Kab. Bolaang Mongondow, Kab. Bolaang Mongondow Selatan, Kota Kotamobagu, Kab. Minahasa Selatan, Kab. Bolaang Mongondow Timur, Kab. Minahasa Tenggara, Kab. Bolaang Mongondow Utara, Kota Tomohon, Kab. Minahasa, Kota Manado, Kab. Minahasa Utara, Kota Bitung, Kab. Kepulauan Sangihe, Kab. Kepulauan Talaud, Kab. Siau Tagulandang Biaro</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Bali">Bali</td> 
+     <td data-savecontent="Kab. Jembrana, Kab. Buleleng">Kab. Jembrana, Kab. Buleleng</td> 
+     <td data-savecontent="1">1</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Bali">Bali</td> 
+     <td data-savecontent="Kab. Badung, Kab. Karangasem, Kab. Tabanan, Kab. Bangli, Kab. Gianyar, Kab. Klungkung, Kota Denpasar">Kab. Badung, Kab. Karangasem, Kab. Tabanan, Kab. Bangli, Kab. Gianyar, Kab. Klungkung, Kota Denpasar</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Nusa Tenggara Barat">Nusa Tenggara Barat</td> 
+     <td data-savecontent="Kab. Lombok Barat, Kab. Lombok Timur, Kota Mataram, Kab. Lombok Tengah, Kab. Lombok Utara, Kab. Sumbawa Barat, Kab. Sumbawa, Kota Bima, Kab. Dompu">Kab. Lombok Barat, Kab. Lombok Timur, Kota Mataram, Kab. Lombok Tengah, Kab. Lombok Utara, Kab. Sumbawa Barat, Kab. Sumbawa, Kota Bima, Kab. Dompu</td> 
+     <td data-savecontent="2">2</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Nusa Tenggara Barat">Nusa Tenggara Barat</td> 
+     <td data-savecontent="Kab. Bima">Kab. Bima</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Nusa Tenggara Timur">Nusa Tenggara Timur</td> 
+     <td data-savecontent="Kab. Alor, Kota Kupang, Kab. Kupang, Kab. Malaka, Kab. Manggarai Barat, Kab. Timor Tengah Selatan, Kab. Belu, Kab. Sikka, Kab. Timor Tengah Utara, Kab. Lembata, Kab. Manggarai Timur, Kab. Ende, Kab. Sumba Barat Daya, Kab. Rote Ndao, Kab. Nagekeo, Kab. Flores Timur, Kab. Ngada, Kab. Sumba Tengah, Kab. Manggarai, Kab. Sumba Barat, Kab. Sumba Timur, Kab. Sabu Raijua">Kab. Alor, Kota Kupang, Kab. Kupang, Kab. Malaka, Kab. Manggarai Barat, Kab. Timor Tengah Selatan, Kab. Belu, Kab. Sikka, Kab. Timor Tengah Utara, Kab. Lembata, Kab. Manggarai Timur, Kab. Ende, Kab. Sumba Barat Daya, Kab. Rote Ndao, Kab. Nagekeo, Kab. Flores Timur, Kab. Ngada, Kab. Sumba Tengah, Kab. Manggarai, Kab. Sumba Barat, Kab. Sumba Timur, Kab. Sabu Raijua</td> 
+     <td data-savecontent="4">4</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Maluku">Maluku</td> 
+     <td data-savecontent="Kab. Maluku Tenggara Barat, Kab. Kepulauan Aru, Kota Tual, Kab. Seram Bagian Barat, Kab. Maluku Tengah, Kab. Seram Bagian Timur, Kota Ambon, Kab. Maluku Tenggara, Kab. Maluku Barat Daya, Kab. Buru Selatan, Kab. Buru">Kab. Maluku Tenggara Barat, Kab. Kepulauan Aru, Kota Tual, Kab. Seram Bagian Barat, Kab. Maluku Tengah, Kab. Seram Bagian Timur, Kota Ambon, Kab. Maluku Tenggara, Kab. Maluku Barat Daya, Kab. Buru Selatan, Kab. Buru</td> 
+     <td data-savecontent="1">1</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Maluku Utara">Maluku Utara</td> 
+     <td data-savecontent="Kab. Halmahera Barat, Kab. Halmahera Utara, Kab. Kepulauan Sula, Kab. Halmahera Timur, Kab. Pulau Taliabu, Kab. Halmahera Selatan, Kota Tidore Kepulauan, Kota Ternate, Kab. Halmahera Tengah, Kab. Pulau Morotai">Kab. Halmahera Barat, Kab. Halmahera Utara, Kab. Kepulauan Sula, Kab. Halmahera Timur, Kab. Pulau Taliabu, Kab. Halmahera Selatan, Kota Tidore Kepulauan, Kota Ternate, Kab. Halmahera Tengah, Kab. Pulau Morotai</td> 
+     <td data-savecontent="1">1</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Papua">Papua</td> 
+     <td data-savecontent="Kab. Asmat, Kab. Jayapura, Kab. Mimika, Kab. Keerom, Kab. Biak Numfor, Kota Jayapura, Kab. Kepulauan Yapen, Kab. Boven Digoel, Kab. Merauke, Kab. Deiyai, Kab. Dogiyai, Kab. Intan Jaya, Kab. Jayawijaya, Kab. Lanny Jaya, Kab. Mamberamo Raya, Kab. Mamberamo Tengah, Kab. Mappi, Kab. Nabire, Kab. Nduga, Kab. Paniai, Kab. Pegunungan Bintang, Kab. Puncak, Kab. Puncak Jaya, Kab. Sarmi, Kab. Supiori, Kab. Tolikara, Kab. Waropen, Kab. Yahukimo, Kab. Yalimo">Kab. Asmat, Kab. Jayapura, Kab. Mimika, Kab. Keerom, Kab. Biak Numfor, Kota Jayapura, Kab. Kepulauan Yapen, Kab. Boven Digoel, Kab. Merauke, Kab. Deiyai, Kab. Dogiyai, Kab. Intan Jaya, Kab. Jayawijaya, Kab. Lanny Jaya, Kab. Mamberamo Raya, Kab. Mamberamo Tengah, Kab. Mappi, Kab. Nabire, Kab. Nduga, Kab. Paniai, Kab. Pegunungan Bintang, Kab. Puncak, Kab. Puncak Jaya, Kab. Sarmi, Kab. Supiori, Kab. Tolikara, Kab. Waropen, Kab. Yahukimo, Kab. Yalimo</td> 
+     <td data-savecontent="1">1</td> 
+    </tr> 
+    <tr> 
+     <td data-savecontent="Papua Barat">Papua Barat</td> 
+     <td data-savecontent="Kab. Teluk Bintuni, Kab. Sorong Selatan, Kab. Sorong, Kab. Teluk Wondama, Kota Sorong, Kab. Manokwari, Kab. Fak Fak, Kab. Kaimana, Kab. Manokwari Selatan, Kab. Maybrat, Kab. Pegunungan Arfak, Kab. Raja Ampat, Kab. Tambrauw">Kab. Teluk Bintuni, Kab. Sorong Selatan, Kab. Sorong, Kab. Teluk Wondama, Kota Sorong, Kab. Manokwari, Kab. Fak Fak, Kab. Kaimana, Kab. Manokwari Selatan, Kab. Maybrat, Kab. Pegunungan Arfak, Kab. Raja Ampat, Kab. Tambrauw</td> 
+     <td data-savecontent="1">1</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <footer> 
+   <h2>Download Aplikasi Kami 👇👇<br> <a href="https://play.google.com/store/apps/details?id=com.circelcuanmv" target="_blank">CIRCELCUANMV</a><br></h2> 
+  </footer> 
+ </body>
+</html>
